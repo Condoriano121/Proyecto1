@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+#character{
+    color: aquamarine;
+    background-color: black;
+    border-radius: 5rem;
+    padding: 0.5rem;
+    width: fit-content;
+    
+}
+
+#info{
+    color: greenyellow;
+    background-color: darkblue;
+    border-radius: 5rem;
+    padding: 0.5rem;
+    width: fit-content;
+
+}
+#eepy{
+    background-color: green;
+    color: cyan;
+    border-radius: 2rem;
+    padding: 0.3rem;
+}
+
+#eepy:hover{
+    cursor:pointer;
+    padding: 0.7rem;
+
+}
